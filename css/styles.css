@@ -14,7 +14,8 @@ ul {
 /* header */
 .header-logo {
     font-family: "Raleway", sans-serif;
-    font-size: 18;
+    font-weight: 700;
+    font-size: 18px;
     color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -31,12 +32,13 @@ ul {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    font-style: normal;
 
 }
 
 .header-navigation-list:hover,
 .header-navigation-list:focus {
-    color:#404BBF;
+      background-color: #404BBF;
 }
 
 .address-list {
@@ -93,11 +95,21 @@ ul {
     color: #434455;
  }
 
+.team {
+   background-color: #F4F4FD;
+}
+
  .team-title {
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     color: #2E2F42;
+   text-align: center;
+   text-transform: capitalize;
+ }
+
+ .team-people {
+   background-color: #FFFFFF;
  }
 
  .team-subtitle {
@@ -120,6 +132,8 @@ ul {
     line-height: 111%;
     letter-spacing: 0.02em;
     color: #2E2F42;
+   text-align: center;
+   text-transform: capitalize;
  }
 
  .portfolio-subtitle {
@@ -143,7 +157,8 @@ ul {
 }
  .footer-logo {
     font-family: "Raleway", sans-serif;
-    font-size: 18;
+    font-size: 18px;
+   font-weight: 700;
     color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.03em;
