@@ -38,7 +38,7 @@ ul {
 
 .header-navigation-list:hover,
 .header-navigation-list:focus {
-      background-color: #404BBF;
+   color: #404BBF;
 }
 
 .address-list {
@@ -46,6 +46,7 @@ ul {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+   font-style: normal;
 }
 
 .address-list:hover,
@@ -77,7 +78,7 @@ ul {
  }
 
  .hero-button:hover {
-    background: #404BBF;
+    background-color: #404BBF;
  }
 
  .features-subtitle {
