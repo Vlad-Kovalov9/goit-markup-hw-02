@@ -41,12 +41,15 @@ ul {
    color: #404BBF;
 }
 
+.header-address {
+font-style: normal;
+}
+
 .address-list {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 
 .address-list:hover,
@@ -77,7 +80,8 @@ ul {
     letter-spacing: 0.04em;
  }
 
- .hero-button:hover {
+ .hero-button:hover,
+ .hero-button:focus {
    background-color: #404BBF;
  }
  
