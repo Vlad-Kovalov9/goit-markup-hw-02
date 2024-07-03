@@ -46,7 +46,7 @@ ul {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
-   font-style: normal;
+    font-style: normal;
 }
 
 .address-list:hover,
@@ -78,8 +78,9 @@ ul {
  }
 
  .hero-button:hover {
-    background-color: #404BBF;
+   background-color: #404BBF;
  }
+ 
 
  .features-subtitle {
     font-weight: 500;
